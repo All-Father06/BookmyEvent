@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>
+	<title>User Dashboard </title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Custom CSS -->
+	<style>
+    body{
+      overflow: hidden;
+	  background-image: url("wp2351063-management-wallpapers.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+    }
+    	.topnav {
+				overflow: hidden;
+				background-color: #333;
+				width: 60%;
+        top:55px;
+        text-align:center;
+
+			}
+
+			.topnav i {
+				font-size: 20px;
+				color: #f2f2f2;
+				/*margin-left:880px;*/
+				float: right;
+				margin-bottom: 3px;
+				margin-right: 10px;
+			}
+
+			.topnav a {
+
+				/*display: block;*/
+				color: #f2f2f2;
+				/*text-align: center;*/
+				text-decoration: none;
+				font-size: 15px;
+				/*padding: 5px 0 15px 0px;*/
+				/*align: center;*/
+				margin-left: 10px;
+				margin-top: 5px;
+
+
+			}
+
+			.topnav .icon {
+				display: none;
+			}
+
+				.topnav a {
+					font-size: 15px;
+					margin-left: 10px;
+				}
+
+				.topnav a.icon {
+					margin-left: 5px;
+					/*display: block;*/
+					font-size: 8px;
+				}
+
+				.topnav {
+					margin-left: 22px;
+					width: 100%;top:55px;text-align:center;				
+        }
+
+				.topnav i {
+					font-size: 30px;
+					color: #f2f2f2;
+					float: right;
+					margin-bottom: 15px;
+					margin-top: 9px;
+				}
+
+
+
+				.inner img {
+					margin: 27px;
+					margin-bottom: 0px;
+					width: 90%;
+					height: 50px;
+				}
+		.container {
+			padding-top: 80px;
+		}
+
+		.row {
+			margin-bottom: 30px;
+		}
+
+		.left-grid, .right-grid {
+			background-color: #f7f7f7;
+			height: 700px;
+		}
+
+		.tall-grid {
+			background-color: #e9ecef;
+			height: 900px;
+		}
+
+		.wide-grid {
+			background-color: #dee2e6;
+			height: 500px;
+      place-self: center;
+      justify-content: center;
+      align-items: center;
+		}
+	</style>
+</head>
+<body>
+  <div class="topnav" id="myTopnav" style="font-family:'Times New Roman';background-color: #8a1528 !important;width: 96%;color:azure;height: 50px; vertical-align: middle !important;border-radius:0px">
+    <a href="https://rait.ac.in" title="LOGOUT" style="float:left; margin-right:5px;margin-top: 10px !important;font-size:20px;"><b style="color: white;">WELCOME User</b></a>
+    <a href="logout.php" title="LOGOUT" style="float:right; margin-right:5px;margin-top: 12px !important;"><b  style="color: white;margin-right: 10px;font-size:20px">LOGOUT</b></a>
+    <!-- <a href="student/update/updateprofile-anon.php" title="UPDATE" style="float:right;margin-right:7px;margin-top: 12px !important;"><b style="color: white;font-size:20px;">PROFILE</b></a> -->
+    <a href="student/bonhafide/change_password.php" title="UPDATE" style="float:right;margin-right:7px;margin-top: 10px !important;font-size:20px"><b style="color: white;">CHANGE PASSWORD</b></a>
+</div>
+  <div class="content">
+    <a href="avents.php">
+      <div id="L" class="csection" style="position:absolute;right:60%;height:90%;top:55px;text-align:center;width:500px;border: 1px solid #121212;border-radius: 15px;backdrop-filter: blur(5px);background: inherit; box-shadow: 0 0 5px 0 ;color:#800000;">
+          <h1 style="position:absolute;top:50%;left:1%;font-size: 70px;">Ongoing </h1>
+          <br><h1 style="position:absolute;top:60%;left:1%;font-size:70px">Events</h1>
+      </div>
+      </a>
+      <div id="c" class="csection" style="position:absolute;left:40.5%;height:90%;top:55px;text-align:center;width:800px;"> 
+        <a href ="req.php">
+        <div id="cr" style="border: 1px solid #121212;height: 50%;border-radius: 15px;backdrop-filter: blur(5px);background: inherit;color:#1730ef; box-shadow: 0 0 5px 0;">
+          <h3 style="position:absolute;top:20%;left:10%;font-size: 50px;">Event Requests</h3>
+        </div>
+        </a>
+        <a href="uac.php">
+        <div id="m" style="top:50%;border:1px solid #121212;height:50%;width:100%;border-radius: 15px;backdrop-filter: blur(5px);background: inherit; box-shadow: 0 0 5px 0 ;color:#ff4d00">
+          <h3 style="position:absolute;top:30%;left:10%;font-size: 50px;">User Access Control</h3>
+        </div>
+        </a>
+      </div>
+</body>
+
+	<!-- jQuery and Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery
